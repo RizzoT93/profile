@@ -46,16 +46,19 @@ p {
   text-align: center;
   padding-bottom: 3rem;
 }
-a:hover{
-  color: #000;
-  font-size: 3.5;
-}
+
 .link_github {
   padding: 10px 12px 13px 14px;
   background-color: #DEB6AB;
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
+  font-weight: 400;
+}
+
+.link_github:hover{
+  color: #AC7088;
+  font-size: 3.5;
 }
 
 .list-inline {
@@ -67,14 +70,18 @@ a:hover{
 .list-item {
   display: inline-block;
   font-size: 50px;
-  color: rgb(200, 200, 200);
+  /*color: rgb(200, 200, 200);*/
   margin: 20px;
 }
 
-.list-item:hover {
-  color: #DEB6AB;
+.link_footer:hover {
+  color: black;
   font-size: 3.5rem;
   text-decoration: none;
+}
+
+.link_footer{
+  color: #DEB6AB;
 }
 
 .container{
